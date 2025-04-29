@@ -1,0 +1,19 @@
+/* footer */
+
+.footer {
+  margin-top: 12rem;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 5.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.footer footer {
+  margin-top: 20rem;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #393d41c4;
+  margin-bottom: 3.6rem;
+}

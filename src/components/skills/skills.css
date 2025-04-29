@@ -1,0 +1,36 @@
+.skills-section {
+  padding-top: 24rem;
+}
+
+.skills-img {
+  width: 10rem;
+}
+/*
+.section-skills h1 {
+  margin: 2rem 0 2rem;
+  font-size: 8.4rem;
+} */
+
+.library-icons {
+}
+
+.lib-icon-cont {
+  display: flex;
+
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0 2rem;
+}
+
+.skills h3 {
+  margin-top: 5.8rem;
+}
+
+.skills-desc {
+  font-size: 3.2rem;
+}
+/*
+.skill-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+} */

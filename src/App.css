@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  width: 160rem;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(243, 244, 246, 0.555);
+}
+
+.primary-title {
+  font-weight: 600;
+  margin: 2rem 0 6rem;
+  font-size: 8.4rem;
+}
+
+.secondary-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+}

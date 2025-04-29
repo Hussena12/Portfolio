@@ -1,0 +1,87 @@
+/* hero */
+
+.hero-section {
+  padding-top: 24rem;
+}
+
+.hero-text {
+  padding-top: 4.8rem;
+}
+
+.hero-text h1 {
+  font-size: 7.2rem;
+  color: #1e3851;
+  padding-bottom: 1.2rem;
+}
+
+.skill-desc {
+  font-size: 3.6rem;
+  color: #6b7280;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 3rem;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: 20rem;
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  background-color: #eef2ff;
+  color: #7b8085;
+  border: none;
+  margin-top: 6rem;
+  border: 1px solid #959da5;
+  box-shadow: 0 12px 9px -2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 2s ease;
+  box-shadow: 0.3s ease;
+  border: 4px solid rgba(107, 114, 128, 0.575);
+}
+
+.btn-download:hover,
+.btn-download:active {
+  color: #fff;
+  background-color: #6c63ff;
+}
+
+.down-icon {
+  font-size: 2.4rem;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.icons-cont {
+  width: 8.2rem;
+  height: 8.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  transition: background-color 0.5s ease, color 1s ease;
+}
+
+.icons-cont:hover,
+.icons-cont:active {
+  background-color: rgba(240, 240, 240, 0.534);
+}
+.social-icon {
+  background-color: #fff;
+  font-size: 4.8rem;
+  color: #6b7280;
+}
+
+.hero-icons {
+  display: flex;
+  gap: 3rem;
+}
