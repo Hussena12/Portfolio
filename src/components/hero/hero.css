@@ -1,6 +1,7 @@
 /* hero */
 
 .hero-section {
+  padding-bottom: 24rem;
   padding-top: 24rem;
 }
 
@@ -22,7 +23,6 @@
 .hero {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-bottom: 3rem;
 }
 
 .btn-download {

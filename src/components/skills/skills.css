@@ -1,5 +1,5 @@
 .skills-section {
-  padding-top: 24rem;
+  padding-bottom: 24rem;
 }
 
 .skills-img {
@@ -10,9 +10,6 @@
   margin: 2rem 0 2rem;
   font-size: 8.4rem;
 } */
-
-.library-icons {
-}
 
 .lib-icon-cont {
   display: flex;

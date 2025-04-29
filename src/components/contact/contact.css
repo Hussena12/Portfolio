@@ -1,7 +1,7 @@
 /* contact */
 
 .contact-section {
-  padding-top: 24rem;
+  padding-bottom: 24rem;
 }
 .contact-cont {
   display: flex;
@@ -12,7 +12,6 @@
   width: 78rem;
   height: 116rem;
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
-  margin-bottom: 8rem;
   border-radius: 16px;
 }
 
@@ -102,4 +101,9 @@
   margin: 2rem 0 6rem;
   font-size: 3.2rem;
   font-weight: 600;
+}
+
+.call {
+  text-decoration: none;
+  display: inline-block;
 }

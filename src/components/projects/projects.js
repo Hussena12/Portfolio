@@ -39,10 +39,10 @@ export default function Projects() {
       <div>
         <p className="secondary-title">Works</p>
         <p className="primary-title"> My Works</p>
-        <p className="pro-title">
+        {/* <p className="pro-title">
           Search projects by title or filter by category
-        </p>
-        <div className="pro-search">
+        </p> */}
+        {/* <div className="pro-search">
           <div className="pro-input">
             <button className="search-btn">
               <ion-icon
@@ -61,7 +61,7 @@ export default function Projects() {
               <option>Branding</option>
             </select>
           </div>
-        </div>
+        </div> */}
 
         <div className="display-projects">
           {displayInfo.map((el) => (

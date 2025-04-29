@@ -74,13 +74,18 @@ export default function Contact() {
             <span>
               <ion-icon name="mail-outline"></ion-icon>
             </span>
-            <p>ha0959943@gmail.com</p>
+            <a className="contact-info call" href="mailto: ha0959943@gmail.com">
+              ha0959943@gmail.com
+            </a>
           </p>
-          <p className="contact-info">
+          <p className="contact-info ">
             <span>
               <ion-icon name="call-outline"></ion-icon>
             </span>
-            <p> +251907841226</p>
+            <a className="contact-info call" href="tel:+251907841226">
+              {" "}
+              +251907841226
+            </a>
           </p>
         </div>
       </div>
