@@ -1,7 +1,13 @@
 import { useState } from "react";
 import "./navBar.css";
+import Button from "../button/button.js";
+
+import React, { useContext } from "react";
+import { themeContext } from "../../theme.js";
 
 export default function NavBar() {
+  const { theme } = useContext(themeContext);
+
   const navList = [
     { name: "Home", id: "home" },
     { name: "Works", id: "works" },
@@ -13,7 +19,7 @@ export default function NavBar() {
   const [activeLink, setActiveLink] = useState(null);
 
   return (
-    <div className="nav-cont">
+    <div className={`nav-cont ${theme}`}>
       <div className="nav-bar ">
         <ul className="nav-list">
           <div className="logo-cont"></div>
@@ -32,12 +38,7 @@ export default function NavBar() {
           </div>
           <div className="header-btn">
             <button className="btn-hire">Hire Me </button>
-            <button
-              className="btn-light"
-              onClick={() => alert("yes bro u can ")}
-            >
-              <ion-icon className="moon-icon" name="moon-outline"></ion-icon>
-            </button>
+            <Button />
           </div>
         </ul>
       </div>

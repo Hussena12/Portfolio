@@ -2,7 +2,21 @@
 
 .nav-cont {
   width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Light theme */
+.nav-cont.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme */
+.nav-cont.dark {
+  background-color: #111;
+  color: white;
+}
+
 .nav-bar {
   z-index: 1000;
   width: 79%;

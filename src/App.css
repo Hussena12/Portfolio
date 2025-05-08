@@ -14,7 +14,17 @@ body {
   width: 160rem;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
   background-color: rgba(243, 244, 246, 0.555);
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
 }
 
 .primary-title {
